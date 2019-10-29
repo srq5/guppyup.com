@@ -12,3 +12,16 @@
 .icon-block .material-icons {
 	font-size: inherit;
 }
+
+.guppy_background {
+  max-width: 99.9%;
+  max-height: 99.9%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer.page-footer.orange {
+  color: black;
+  background-color: aqua;
+}
