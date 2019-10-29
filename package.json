@@ -1,0 +1,11 @@
+{
+  "name": "guppyup",
+  "version": "1.0.0",
+  "description": "Guppy LLC website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Steven Sammon, Daniel J. Aldrich",
+  "license": "GPL-3.0"
+}
