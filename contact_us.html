@@ -1,18 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-  <title>Starter Template - Materialize</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+  <title>Guppy | contact</title>
 
   <!-- CSS  -->
 
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/override.css"/>
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/override.css" />
 </head>
 
 <body>
+  <nav class="pink lighten-2" role="navigation">
+    <div class="nav-wrapper container">
+      <ul class="right hide-on-med-and-down">
+        <!-- <li><a href="#">services</a></li>
+            <li><a href="#">contact</a></li> -->
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="./index.html">home</a></li>
+        <li><a href="./contact_us.html">contact</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+  <form action="submit">
+    <div class="input-field">
+      <input type="text" id="name">
+      <label class="active" for="name">name</label>
+    </div>
+    <div class="input-field">
+      <input type="email" id="email" class="validate">
+      <label class="active " for="email">email</label>
+    </div>
+    <div class="input-field">
+      <input type="number" id="phone">
+      <label class="active " for="phone">phone</label>
+    </div>
+    <div class="input-field">
+      <textarea type="text" id="msg"></textarea>
+      <label class="active " for="msg"> message</label>
+    </div>
+  </form>
 </body>
+
 </html>
